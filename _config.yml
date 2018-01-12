@@ -104,4 +104,4 @@ backup:
     type: git
     message: update hexo blog access hexo-git-backup plugin
     repository: 
-        github: git@github.com:yinweiyouni/Hexo.git,slave
+        origin: git@github.com:yinweiyouni/Hexo.git,slave
