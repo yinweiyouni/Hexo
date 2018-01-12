@@ -98,3 +98,10 @@ deploy:
   type: git
   repo: https://github.com/yinweiyouni/yinweiyouni.github.io.git
   branch: master
+
+  
+backup:
+    type: git
+    message: update hexo blog access hexo-git-backup plugin
+    repository: 
+        github: git@github.com:yinweiyouni/Hexo.git,slave
