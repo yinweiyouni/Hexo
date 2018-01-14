@@ -101,8 +101,21 @@
   
   <!--{{ live2d() }} -->  
 </body>
-
-
+<!-- 百度自动推送js代码-->
+  <script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
 
 <!--添加动态背景 -->
 <script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
@@ -110,7 +123,7 @@
 <script type="text/javascript" src="/js/src/love.js"></script>
 
 <!--崩溃欺骗-->
-<script type="text/javascript" src="/js/src/duoshuoshuo.js"></script>
+<script type="text/javascript" src="/js/src/titlerun.js"></script>
 
 {% if theme.fireworks %}
    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
