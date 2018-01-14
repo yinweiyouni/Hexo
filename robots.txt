@@ -1,0 +1,2 @@
+Sitemap: http://yinweiyouni.site/sitemap.xml
+Sitemap: http://yinweiyouni.site/baidusitemap.xml

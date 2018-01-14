@@ -62,7 +62,8 @@ get_font_family(config) {
 }
 
 // Font families.
-$font-family-chinese      = "PingFang SC", "Microsoft YaHei"
+//$font-family-chinese      = "PingFang SC", "Microsoft YaHei"
+$font-family-chinese      = 'Comic Sans MS'
 
 $font-family-base         = $font-family-chinese, sans-serif
 $font-family-base         = get_font_family('global'), $font-family-chinese, sans-serif if get_font_family('global')
@@ -191,10 +192,10 @@ $pagination-active-border       = $grey-light
 // Layout sizes
 // --------------------------------------------------
 
-$main-desktop                   = 960px
+$main-desktop                   = 1080px
 $main-desktop-large             = 1200px
 
-$content-desktop                = 700px
+$content-desktop                = 810px
 $content-desktop-large          = 900px
 
 $content-desktop-padding        = 40px
@@ -228,7 +229,7 @@ $brand-color                    = white
 $brand-hover-color              = white
 $brand-bg                       = $black-deep
 
-$logo-font-size                 = 20px
+$logo-font-size                 = 28px
 $logo-font-size                 = unit(hexo-config('font.logo.size'), px) if hexo-config('font.logo.size') is a 'unit'
 
 $site-subtitle-color            = $grey-dark

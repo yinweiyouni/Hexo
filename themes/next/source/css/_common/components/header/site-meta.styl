@@ -1,10 +1,3 @@
-.site-meta {
-  margin: 0;
-  text-align: $site-meta-text-align;
-
-  +mobile() { text-align: center; }
-}
-
 .brand {
   position: relative;
   display: inline-block;
@@ -15,11 +8,11 @@
   &:hover { color: $brand-hover-color; }
 }
 
-.logo {
-  display: inline-block;
-  margin-right: 5px;
-  line-height: 36px;
-  vertical-align: top;
+.site-meta {
+  margin: 0;
+  text-align: $site-meta-text-align;
+
+  +mobile() { text-align: center; }
 }
 
 .site-title {
@@ -30,6 +23,15 @@
   font-weight: normal;
   font-family: $font-family-logo;
 }
+
+.logo {
+  display: inline-block;
+  margin-right: 5px;
+  line-height: 36px;
+  vertical-align: top;
+}
+
+
 
 .site-subtitle {
   margin-top: 10px;

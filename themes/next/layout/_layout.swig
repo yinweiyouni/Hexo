@@ -11,6 +11,8 @@
 
 
 <head>
+
+<link href="http://7u2ss1.com1.z0.glb.clouddn.com/harlem-shake-style.css" rel="stylesheet" type="text/css" />
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
   {% include '_third-party/analytics/index.swig' %}
@@ -100,21 +102,15 @@
   <!--{{ live2d() }} -->  
 </body>
 
-<!-- 网易云音乐外链 -->
-	<!-- 只显示播放器 -->
-<div style="max-width: 100px;max-height: 50px">
 
-<embed style="margin-top: -35px;" frameborder="no" border="0"marginwidth="0" marginheight="0" src="http://music.163.com/outchain/player?type=0&id=2054295316&auto=1&height=10"></embed>
-</div>
-<!-- 不显示播放器-->
-
-	<!-- END -->
 
 <!--添加动态背景 -->
 <script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
-
 <!-- 添加点击出现love效果 -->
 <script type="text/javascript" src="/js/src/love.js"></script>
+
+<!--崩溃欺骗-->
+<script type="text/javascript" src="/js/src/duoshuoshuo.js"></script>
 
 {% if theme.fireworks %}
    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
