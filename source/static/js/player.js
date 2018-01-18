@@ -185,11 +185,8 @@
         if (time) {
             audio.currentTime = time
         }
-		if(localStorage.volume){
-			audio.volume = localStorage.volume
-		}
         if (sessionStorage.autoPlay == undefined) {
-            sessionStorage.autoPlay = "true"
+            sessionStorage.autoPlay = "false"
         }
 
     }
