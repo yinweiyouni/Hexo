@@ -40,3 +40,41 @@ list-style-type: circle;  // 空心圆，实心圆为 disc
 }
 
 .feed-link a{display: inline-block;}
+
+
+// 自定义页脚跳动的心样式
+@keyframes heartAnimate {
+    0%,100%{transform:scale(1);}
+    10%,30%{transform:scale(0.9);}
+    20%,40%,60%,80%{transform:scale(1.1);}
+    50%,70%{transform:scale(1.1);}
+}
+#heart {
+    animation: heartAnimate 1.33s ease-in-out infinite;
+}
+.with-love {
+    color: rgb(255, 113, 168);
+}
+
+#修改正文顶部与标题行间距
+.posts-expand .post-meta {
+	margin: 10px 0 10px 0;
+}
+
+#调整一级标题和正文的间距
+.post-body h1 {
+  margin: 0 0 15px 0;
+}
+
+
+// 调整段落下部间距
+.post-body p {
+  margin-bottom: 0.8em;
+}
+
+
+// 设置段落首行缩进，调整段落下部间距
+.post-body p {
+  text-indent: 2em;
+  margin-bottom: 0.8em;
+}

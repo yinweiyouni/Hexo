@@ -14,7 +14,7 @@
 
 <link href="http://7u2ss1.com1.z0.glb.clouddn.com/harlem-shake-style.css" rel="stylesheet" type="text/css" />
   {% include '_partials/head.swig' %}
-  <title>{% block title %}{% endblock %}</title>
+  <title>{% block title %}{{theme.keywords}}-{{config title}}-{{theme description}}{% endblock %}</title>
   {% include '_third-party/analytics/index.swig' %}
 </head>
 
@@ -100,6 +100,8 @@
   {% include '_third-party/exturl.swig' %}
   
   <!--{{ live2d() }} -->  
+  {% include '_third-party/exturl.swig' %}
+  {% include '_my/audio.swig' %}
 </body>
 <!-- 百度自动推送js代码-->
   <script>
@@ -130,4 +132,7 @@
    <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
    <script type="text/javascript" src="/js/src/fireworks.js"></script>
 {% endif %}
+
+
+
 </html>
